@@ -19,8 +19,7 @@ function displaytime(){
 setInterval(displaytime, 10);
 
 setInterval(function () {
-    // fetch("https://markir.herokuapp.com/api")
-    fetch("https://localhost:8080/api")
+    fetch("https://markirrr.herokuapp.com/api")
       .then((hasil) => hasil.json())
       .then((res) => {
         console.log(res);
